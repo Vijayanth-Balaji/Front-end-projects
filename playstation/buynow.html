@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    
+
+    <div class="container pt-3">
+        <div class="navbar">
+         
+            <img src="img/logo.png" class="logo">
+            <nav>
+               
+                <ul id="menuList">
+                    <li><a href="">Game Controllers</a></li>
+                    <li><a href="">VR accessories</a></li>
+                    <li><a href="">Media Remotes</a></li>
+                    <li><a href="">Others</a></li>
+                </ul>
+            </nav>
+        
+            <img src="img/menu.png" class="menu-icon" onclick = "togglemenu()">
+            
+
+        </div>
+
+ 
+
+        <div class="container">
+            <div class="body-2">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/controller.png" width="100%" id="ProductImg">
+                </div>
+            
+                <div class="col-md-6 mt-5">
+                    <div class="single-product mt-5">
+                    <p>PS4 / Controller</p>
+                    <h1>PS4 DualShock Controller</h1>
+                    <h4>$600.00</h4>
+                    <input type="number" value="1">
+                    <a href="" class="btn btn-danger">Add To Cart</a>
+                    <h3>Product Details &nbsp;<a href="" class="ok"><i class="fas fa-indent"></i></a></h3>
+                    <br>
+                    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                </div>
+                </div>
+                <div class="small-images">
+                    <img src="img/controller.png" width="10%" class="small-img">
+                    <img src="https://image.shutterstock.com/image-photo/istanbul-turkey-march-12-2018-260nw-1115532866.jpg" width="10%" class="small-img">
+                    <img src="https://oneesports.azureedge.net/cdn-data/wp-content/uploads/2020/04/SonyPS5_DualSense_03-01-1024x576.jpeg" width="10%" class="small-img">
+                    <img src="https://i.shgcdn.com/af82d5db-68ce-46cd-9b1b-83e3fd315f7c/-/format/auto/-/preview/3000x3000/-/quality/lighter/" width="8%" class="small-img">
+                </div>
+              
+            
+        </div>
+           
+       
+    </div>
+
+
+        <div class="social-links-2">
+        <img src="img/fb.png" alt="">   
+            <img src="img/tw.png" alt="">
+            <img src="img/ig.png" alt="">
+        </div>
+    </div>
+
+    <script>
+
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+
+            if(menuList.style.maxHeight == "0px"){
+                menuList.style.maxHeight = "130px"
+            }
+
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+
+<script>
+    var ProductImg = document.getElementById("ProductImg");
+   var SmallImg = document.getElementsByClassName("small-img");
+   var Single = document.getElementsByClassName("single-product")
+
+   SmallImg[0].onclick = function()
+   {
+       ProductImg.src = SmallImg[0].src;
+   }
+   SmallImg[1].onclick = function()
+   {
+       ProductImg.src = SmallImg[1].src;
+   }
+   SmallImg[2].onclick = function()
+   {
+       ProductImg.src = SmallImg[2].src;
+   }
+   SmallImg[3].onclick = function()
+   {
+       ProductImg.src = SmallImg[3].src;
+   }
+</script>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,32 @@
+body{
+    background:url('https://st4.depositphotos.com/1704023/27247/i/600/depositphotos_272475174-stock-photo-night-cricket-pitch-scene-with.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding:100px;
+    height:400px;
+
+}
+
+.question{
+    color:#fff;
+    margin-top:60px
+}
+
+button{
+    width:100px;
+    margin-top:100px;
+
+}
+#set{
+    display:none
+}
+
+#none{
+    display:block
+}
+
+#set-2{
+    display:none
+}
+

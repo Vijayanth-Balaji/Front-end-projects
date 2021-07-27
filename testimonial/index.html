@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="idk">
+        <h1>Customer Review</h1>
+        <div class="review-box">
+            <div id="slide">
+                <div class="card">
+                    <div class="profile">
+                        <img src="Images/pic1.jpg">
+                        <div>
+                            <h3>Riley Olie</h3>
+                            <p>Web Designer</p>
+                        </div>
+                    </div>
+                   
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id commodo ligula. Nunc feugiat, felis vitae auctor aliquam, dolor felis sollicitudin massa, in hendrerit quam lorem et nibh. Nulla eu quam eget sapien mollis feugiat. Vivamus iaculis ante eu auctor vestibulum. Proin et </p>
+                </div>
+                <div class="card">
+                    <div class="profile">
+                        <img src="Images/pic2.jpg">
+                        <div>
+                            <h3>Steve McCury</h3>
+                            <p>U/UX Designer</p>
+                        </div>
+                    </div>
+                   
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id commodo ligula. Nunc feugiat, felis vitae auctor aliquam, dolor felis sollicitudin massa, in hendrerit quam lorem et nibh. Nulla eu quam eget sapien mollis feugiat. Vivamus iaculis ante eu auctor vestibulum. Proin et </p>
+                </div>
+                <div class="card">
+                    <div class="profile">
+                        <img src="Images/pic3.jpg">
+                        <div>
+                            <h3>Merlin Nguyen</h3>
+                            <p>Web Designer</p>
+                        </div>
+                    </div>
+                   
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id commodo ligula. Nunc feugiat, felis vitae auctor aliquam, dolor felis sollicitudin massa, in hendrerit quam lorem et nibh. Nulla eu quam eget sapien mollis feugiat. Vivamus iaculis ante eu auctor vestibulum. Proin et </p>
+                </div>
+                <div class="card">
+                    <div class="profile">
+                        <img src="Images/pic4.jpg">
+                        <div>
+                            <h3>John Williams</h3>
+                            <p>Team Lead</p>
+                        </div>
+                    </div>
+                   
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id commodo ligula. Nunc feugiat, felis vitae auctor aliquam, dolor felis sollicitudin massa, in hendrerit quam lorem et nibh. Nulla eu quam eget sapien mollis feugiat. Vivamus iaculis ante eu auctor vestibulum. Proin et </p>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <img src="Images/up-arrow.png" id="upArrow">
+                <img src="Images/down-arrow.png" id="downArrow">
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <script>
+        var slide = document.getElementById("slide");
+        var upArrow = document.getElementById("upArrow");
+        var downArrow = document.getElementById("downArrow");
+
+        let x = 0;
+
+        upArrow.onclick = function(){
+            if(x < 0){
+                x = x + 300;
+            slide.style.top = x + "px";
+
+            }
+            
+        }
+
+        downArrow.onclick = function(){
+            if(x > "-900"){
+                x = x - 300;
+            slide.style.top = x + "px";
+
+            }
+            
+        }
+
+    </script>
+
+
+
+</body>
+</html>

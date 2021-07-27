@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://ecommerce-flashsale.campk12web.repl.co/images/5.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://ecommerce-flashsale.campk12web.repl.co/images/4.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://ecommerce-flashsale.campk12web.repl.co/images/3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://ecommerce-flashsale.campk12web.repl.co/images/2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://ecommerce-flashsale.campk12web.repl.co/images/1.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+
+      <div id="clockdiv">
+          
+           <div class="smallText">
+            <h3>Sales End In:</h3>
+        </div>
+        <br><br>
+        <div class="container">
+          <div>
+            <span id="days"></span>
+            <div class="smallText">Days</div>
+        </div>
+       <div>
+        <span id="hours"></span>
+        <div class="smallText">Hours</div>
+    </div>
+    <div>
+        <span id="min"></span>
+        <div class="smallText">Minutes</div>
+    </div>
+    <div>
+        <span id="sec"></span>
+        <div class="smallText">Seconds</div>
+    </div>
+</div>
+          
+      </div>
+
+      <script>
+        var y,d,h,m,s;
+
+        function init(){
+          d = '20';
+          h = '20';
+          m = '20';
+          s = '20';
+          clock();
+        }
+
+        function clock(){
+          s--;
+          if(s==0){
+            s = 60;
+            m--;
+            if(m==0){
+              m = 60;
+              h--;
+              if(h==0){
+                h = 24;
+                d--;
+                if(d==0){
+                  d = 365;
+                }
+              }
+            }
+          }
+
+          change('sec',s);
+          change('min',m);
+          change('hours',h);
+          change('days',d);
+          setTimeout(clock , 1000);
+        }
+
+        function change(id,val){
+          if(val < 10){
+            val = '0' + val;
+
+          }
+          if(id==' hr'){
+            if(val < 13){
+              val = val;
+            }
+            else{
+              val = val=12;
+            }
+          }
+        
+          document.getElementById(id) . innerHTML = val;
+        }
+        window.onload = init();
+
+
+      </script>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</html>

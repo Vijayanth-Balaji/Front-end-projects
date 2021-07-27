@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"><!-- fontawesom cdn link -->
+    <!-- font --> 
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+           <a href="index.html"> <img src="Images-2/logo.png" alt=""></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+           </div>
+           <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>CONTACT US</h1>
+    </section>
+<!-- Footer -->
+
+<!-- contact content -->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7020412807988!2d77.7161532500254!3d12.990899524794829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae119dd4d04353%3A0x4ebeceb2b8dacf6a!2sMahaveer%20Tuscan!5e0!3m2!1sen!2sin!4v1621317463331!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+
+<!-- contact us -->
+<section>
+
+    <div class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h5>XYZ Road , ABC Building</h5>
+                        <p>Bangalore, Karnataka, In</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <span>
+                        <h5>+1 1234567890</h5>
+                        <p>Monday To Saturday , 10:00AM to 6:00PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-envelope-open-text"></i>
+                    <span>
+                        <h5>idk@gmail.com</h5>
+                        <p>Email Us Your Query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+          <form action="">
+              <input type="text" placeholder="Enter Your Name" required>
+              <input type="email" placeholder="Enter Email Address" required>
+              <input type="text" placeholder="Enter Your Subject" required>
+              <textarea rows="8" placeholder="Message" required></textarea>
+              <button type="submit" class="idk-btn red-btn">Send Message</button>
+
+          </form>
+  
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Quisque aliquet, nisi et accumsan aliquam, ante elit aliquet velit, id sollicitudin ex</p>
+
+    <div class="icons">
+        <i class="fab fa-facebook fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fab fa-twitter fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fab fa-instagram fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fab fa-linkedin-in fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+    <p>Made by Vijayanth</p>
+</section>
+
+    <!-- javascript for toogle menu -->
+<script>
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

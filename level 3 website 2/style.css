@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    overflow: hidden;
+    background:#000;
+    text-align: center;
+}
+
+#clockdiv{
+    position:absolute;
+    top:50%;
+    left:20%;
+    font-size:30px;
+    text-align: center;
+    font-weight: 100px;
+    font-family: sans-serif;
+    transform: translate(-50%,-50%);
+    color:#fff;
+}
+
+#clockdiv > div{
+    padding:10px;
+    background:#009688;
+    display: inline-flex;
+    border-radius: 3px;
+}   
+
+#clockdiv span{
+    background:#0B7149;
+    border-radius: 3px;
+    display:inline-flex;
+    padding:15px;
+}
+
+.smallText{
+    font-size:16px;
+    padding:5px;
+}

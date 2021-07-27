@@ -1,0 +1,910 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+.navbar{
+    padding:20px 40px;
+    display: flex;
+    background:#fff
+}
+
+.navbar img{
+    padding:5px 40px
+}
+
+nav ul li{
+    display:inline-block;
+    margin-top:11px;
+    padding:0px 20px
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#000;
+    font-size:18px
+}
+
+nav ul li a:hover{
+    color:#CCE500;
+
+}
+
+.idk{
+    background: #CCE500 !important;
+}
+
+#topPart{
+    background-image: url('https://cms-web.olacabs.com/00000000383.jpg');
+    height:90vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#card{
+    position: absolute;
+    top:30%;
+    left:7%;
+    background:#F1F1F0;
+    padding:20px 35px;
+    border-radius: 5px;
+    margin-top:70px
+}
+
+.taxi{
+    font-size:20px;
+    padding-bottom:10px
+}
+
+.sub{
+    align-items: center;
+    text-align: center;
+    width: 100% !important;
+    background: #AFE337 !important;
+}
+
+#card button{
+    width:100px
+}
+
+#card button:hover{
+    color:#AFE337
+}
+
+.top h1{
+    padding-top: 80px;
+    padding-left:80px
+}
+
+.top p{
+    padding-left:80px;
+    font-size: 25px;
+}
+
+
+a{
+    text-decoration: none !important;
+}
+
+
+.service-info {
+    display: block;
+    padding: 40px 0px 40px 0px;
+}
+
+
+.section-container {
+    letter-spacing: 0.3px;
+}
+.max-width {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.section-container .section-heading {
+    font-size: 28px;
+}
+
+.section-container .section-heading {
+    font-size: 36px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.92);
+    margin-bottom: 5px;
+    display: block;
+}
+
+.section-container .section-sub-heading {
+    font-size: 14px;
+}
+
+.section-container .section-sub-heading {
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.92);
+    opacity: 0.5;
+    display: block;
+    line-height: 20px;
+}
+
+
+.service-info .card-list-container {
+    padding-top: 20px;
+}
+
+.service-info .card-list-container {
+    display: block;
+    padding-top: 60px;
+}
+
+.service-info .card-holder:first-child {
+    padding-left: 0;
+}
+
+
+
+
+.service-info .card-holder {
+    width: 100%;
+    padding: 0;
+}
+
+.service-info .card-holder {
+    width: 33.33%;
+    float: left;
+    padding-right: 38px;
+}
+
+
+.service-info .indiv-card {
+    background: #FBFBFC;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 8px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 20%);
+    letter-spacing: 0.3px;
+    display: inline-block;
+}
+
+
+.service-info .indiv-card .action-btn {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0680FD;
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    line-height: 45px;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.hide {
+    display: none !important;
+}
+.hide {
+    display: none !important;
+}
+
+.service-info .indiv-card .img-holder {
+    width: 100%;
+    position: relative;
+}
+
+.service-info .indiv-card .img-holder .share-img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.service-info .indiv-card .img-holder .overlay {
+    position: absolute;
+    height: 200px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0.3;
+    z-index: 1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+.service-info .indiv-card .img-holder .share-type {
+    right: 16px;
+    width: 60px;
+    height: 60px;
+}
+
+.service-info .indiv-card .img-holder .share-type {
+    background: #CCE500;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 4;
+    right: 20px;
+    bottom: -35px;
+    line-height: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.service-info .indiv-card .img-holder .share-type img {
+    width: 60px;
+}
+
+
+.service-info .indiv-card .img-holder .share-type img {
+    width: 45px;
+}
+
+.service-info .indiv-card .info-container {
+    padding: 20px 20px 0 20px;
+    text-align: left;
+}
+
+.service-info .indiv-card .info-container .heading {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    color: #4A4A4A;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.service-info .indiv-card .info-container .comm-info {
+    min-height: auto;
+}
+
+.service-info .indiv-card .info-container .comm-info {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.6);
+    display: block;
+    line-height: 24px;
+    min-height: 150px;
+}
+
+.service-info .indiv-card .benifits-list {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.service-info .indiv-card .benifits-list .indiv-item {
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    color: #4A4A4A;
+    vertical-align: top;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.service-info .indiv-card .benifits-list .indiv-item .icon-holder {
+    width: 30px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+.service-info .indiv-card .benifits-list .indiv-item .lab {
+    display: inline-block;
+    vertical-align: middle;
+    color: #666666;
+    line-height: 18px;
+}
+
+.why-ola {
+    padding: 30px 0 0 0;
+}
+.section-container {
+    letter-spacing: 0.3px;
+}
+.max-width {
+    max-width: 1200px;
+    margin: auto;
+}
+.section-container .section-heading {
+    font-size: 36px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.92);
+    margin-bottom: 5px;
+    display: block;
+}
+
+.section-container .section-sub-heading {
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.92);
+    opacity: 0.5;
+    display: block;
+    line-height: 20px;
+}
+.why-ola .item-list-wrapper {
+    padding: 20px 0 0 0;
+    width: 100%;
+}
+
+.why-ola .wd-50:first-child {
+    padding-right: 20px;
+}
+
+.why-ola .wd-50 {
+    width: 50%;
+    float: left;
+}
+
+.why-ola .wd-50:nth-child(2) {
+    padding-left: 20px;
+}
+
+.why-ola .indiv-item-list {
+    width: 100%;
+    padding: 16px;
+    border-radius: 4px;
+    margin-left: -16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.why-ola .indiv-item-list .wd-30 {
+    width: 30%;
+    float: left;
+}
+
+.why-ola .indiv-item-list .wd-30 img {
+    max-width: 100%;
+    border-radius: 4px;
+    max-height: 110px;
+}
+
+.why-ola .indiv-item-list .wd-70 {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.why-ola .indiv-item-list .heading {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.why-ola .indiv-item-list .info {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.book-app{
+    margin-top:70px;
+}
+
+.book-app h1{
+    margin-top:150px
+}
+
+.download{
+    margin-top:90px;
+    margin-left: -10px;
+}
+
+.download img{
+    padding:0px 10px 20px;
+    
+}
+
+
+
+
+  /* test 2 */
+
+  .ola-fleet {
+    padding: 60px 20px 0 0;
+    width: 100%;
+}
+.section-container {
+    letter-spacing: 0.3px;
+}
+.max-width {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section-container .section-heading {
+    font-size: 36px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.92);
+    margin-bottom: 5px;
+    display: block;
+}
+
+.section-container .section-sub-heading {
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.92);
+    opacity: 0.5;
+    display: block;
+    line-height: 20px;
+}
+
+.ola-fleet .ola-fleet-options {
+    padding: 25px 0 0 0;
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    position: relative;
+    z-index: 2;
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.ola-fleet .outstation-fleet .slick-list .slick-track {
+    margin: initial;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.ola-fleet .indiv-fleet {
+    text-align: center;
+    margin-right: 25px;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 0;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.ola-fleet .slick-current .img-holder {
+    background: #CDDC39 !important;
+}
+.ola-fleet .indiv-fleet .img-holder {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    -webkit-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+
+.ola-fleet .indiv-fleet label {
+    display: block;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.92);
+
+}
+
+.ola-fleet .slick-current .ola-fleet-icon {
+    opacity: 0;
+}
+.ola-fleet .indiv-fleet .ola-fleet-icon {
+    opacity: 1;
+}
+
+.ola-fleet .indiv-fleet img {
+    width: 50px;
+}
+.ola-fleet .indiv-fleet img {
+    width: 55px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.slick-slide img {
+    display: block;
+}
+
+.ola-fleet .slick-current .ola-fleet-icon-active {
+    opacity: 1;
+    -webkit-animation: slide-back 650ms forwards;
+    animation: slide-back 650ms forwards;
+}
+.ola-fleet .indiv-fleet .ola-fleet-icon-active {
+    opacity: 0;
+    -webkit-animation: slide-front 5s forwards;
+    animation: slide-front 5s forwards;
+}
+
+.ola-fleet .slick-current .triangle-up {
+    opacity: 1;
+    display: block;
+    position: static;
+}
+.ola-fleet .indiv-fleet .triangle-up {
+    position: absolute;
+    bottom: -21px;
+    top: initial;
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: 5;
+   
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.ola-fleet .indiv-fleet {
+    text-align: center;
+   
+    transition: all 0.2s ease;
+    position: relative;
+    cursor: pointer;
+}
+.slick-slide {
+
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.ola-fleet .indiv-fleet .img-holder {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    -webkit-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+
+.ola-fleet .indiv-fleet .ola-fleet-icon {
+    opacity: 1;
+}
+
+.ola-fleet .indiv-fleet img {
+    width: 55px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.slick-slide img {
+    display: block;
+}
+
+.ola-fleet .indiv-fleet .ola-fleet-icon-active {
+    opacity: 0;
+    -webkit-animation: slide-front 5s forwards;
+    animation: slide-front 5s forwards;
+}
+
+
+.ola-fleet .indiv-fleet img {
+    width: 55px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.slick-slide img {
+    display: block;
+}
+
+.ola-fleet .indiv-fleet label {
+    display: block;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.92);
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.ola-fleet .indiv-fleet .triangle-up {
+    position: absolute;
+    bottom: -21px;
+    top: initial;
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: 5;
+    opacity: 0;
+    display: none;
+}
+.ola-fleet .indiv-fleet .triangle-up img {
+    width: 30px;
+    display: block;
+    position: static;
+}
+
+.ola-fleet .indiv-fleet img {
+    width: 55px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.slick-slide img {
+    display: block;
+}
+
+.ola-fleet .prev-btn-nav {
+    position: absolute;
+    left: -50px;
+    font-size: 0;
+    z-index: 2;
+    cursor: pointer;
+    top: 50%;
+    border: 1px solid rgba(255, 255, 255, 0);
+    width: 25px;
+    height: 25px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: url('https://www.olacabs.com/webstatic/img/arrowhead-left.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input, button, select, textarea {
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.ola-fleet .next-btn-nav {
+    position: absolute;
+    right: -50px;
+    font-size: 0;
+    z-index: 2;
+    cursor: pointer;
+    top: 50%;
+    border: 1px solid rgba(255, 255, 255, 0);
+    width: 25px;
+    height: 25px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: url('https://www.olacabs.com/webstatic/img/arrowhead-right.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+input, button, select, textarea {
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.img-holder:hover{
+    background: #CCE500;
+    
+}
+
+.iam{
+    cursor: pointer;
+}
+
+.footer{
+    background: #383837;
+    padding:40px 70px;
+    color:#fff;
+    font-size:14px
+}
+
+.outstation{
+    display:flex;
+    font-size:14px
+}
+
+.north{
+    margin-top:6px;
+    margin-left:110px;
+    display:inline
+}
+
+.north p{
+    cursor: pointer;
+}
+
+.north p:hover{
+    color:#CCE500
+}
+
+.expand{
+    cursor: pointer;
+}
+.expand:hover{
+    color:#CCE500
+}
+
+.social{
+    display: flex;
+    margin-top:30px;
+    padding-bottom:20px
+}
+
+.links{
+    margin-left:150px;
+    padding:0px 30px
+}
+
+.links img{
+    padding:0 30px
+}
+
+
+.dropdown{
+    float:right;
+    margin-left:400px
+}
+
+.carousel-content{
+    background:#ECECE5
+}
+
+.content{
+    margin-top:120px;
+    margin-left:120px
+}
+
+.contp{
+    font-size:20px
+}
+
+.contp1{
+    font-size:18px
+}
+
+.small{
+    margin-top:15px;
+    margin-left: -15px;
+}
+
+.small img{
+    padding:0 15px;
+    padding:20px 
+}
+
+.small img:hover{
+    background: #CCE500;
+    border-radius:50%;
+   
+}
+
+.up{
+    margin-left:170px;
+    margin-top:4px
+}
+
+.next-ar{
+   margin-top:-160px;
+   cursor: pointer;
+   margin-right: -60px;
+}
+
+
+.prev-ar{
+    margin-top:-300px;
+    cursor: pointer;
+    margin-left:-840px
+}

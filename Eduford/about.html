@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"><!-- fontawesom cdn link -->
+    <!-- font --> 
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+           <a href="index.html"> <img src="Images-2/logo.png" alt=""></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+           </div>
+           <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>ABOUT US</h1>
+    </section>
+
+    <!-- about us content -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are The Worlds Largest University</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu ligula ac leo elementum pharetra in sed odio. Mauris pharetra consequat lacus ut malesuada. Sed lobortis tortor sed enim auctor, eu varius ligula convallis. Maecenas eu lectus a diam venenatis convallis at sed sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras et nunc eget justo interdum aliquam. Aenean finibus commodo purus vel auctor. Vestibulum auctor in dui quis posuere. Cras non sodales ex.</p>
+                <a href="" class="idk-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                    <img src="Images-2/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Quisque aliquet, nisi et accumsan aliquam, ante elit aliquet velit, id sollicitudin ex</p>
+
+    <div class="icons">
+        <i class="fab fa-facebook fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fab fa-twitter fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fab fa-instagram fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fab fa-linkedin-in fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+    <p>Made by Vijayanth</p>
+</section>
+
+    <!-- javascript for toogle menu -->
+<script>
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
